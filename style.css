@@ -1,13 +1,17 @@
 body {
 	background: #f7f7f7;
 	font-family: Verdana;
+	max-width: 900px;
+	margin: auto;
 }
 
 .photo {
-	width: 180px;
-	height: 220px;
+	height: 200px;
 	border: 1px solid #505050;
 	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 
@@ -16,6 +20,9 @@ body {
 }
 
 #title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	font-size: 40px;
 	text-transform: uppercase;
 }
@@ -47,8 +54,7 @@ a {
 }
 
 .post_img {
-	width: 500px;
-	height: 300px;
+	width: 100%;
 	margin-bottom: 15px;
 }
 
@@ -61,4 +67,6 @@ a {
 .contacts_list li a {
 	text-decoration: none;
 	color: blue;
+	margin-left: auto;
+	margin-right: auto;
 }
