@@ -21,7 +21,7 @@ body {
 }
 
 a {
-	text-decoration: line-through;
+	text-decoration: underline;
 	color: #505050;
 }
 
@@ -51,4 +51,14 @@ a {
 	height: 300px;
 	margin-bottom: 15px;
 }
+
+.contacts_list {
+	list-style-type: none;
+	padding-left: 15px;
 	
+}
+
+.contacts_list li a {
+	text-decoration: none;
+	color: blue;
+}
